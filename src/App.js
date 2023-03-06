@@ -5,6 +5,7 @@ import  SearchIcon from "./search.svg";
 import MovieCard from './MovieCard';
 
 
+
 //366aa7b
 const API_URL = "http://www.omdbapi.com?apikey=366aa7b";
  const App=()=>{
@@ -34,7 +35,7 @@ const API_URL = "http://www.omdbapi.com?apikey=366aa7b";
 
       <div className="search"> 
       <input
-      placeholder="Search for movie"
+      placeholder="Search for"
       value={searchterm}
       onChange={(e)=> setsearchterm(e.target.value)}
       />
